@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+
+.viasar-header {
+    background: #202E39;
+}
+
+.logo {
+    margin-top: 7px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px 10px 49px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: -2px;
+}
+
+#menu {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'SourceSansPro-Regular';
+}
+
+
+.hire-developer-btn .hire-dev {
+    color: #FFF;
+    font-size: 14px;
+    width: 180px;
+    height: 36px;
+    font-weight: 700;
+    background: #677A89;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+}
+.menu.hire-developer-btn{
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
+}
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    margin: 3px 0;
+    background-color: #000;
+}
+
+.all-header {
+    position: relative;
+}
+
+.all-header::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(/static/images/header-footer-line.webp);
+    height: 10px;
+}
+
+@media (max-width: 899px) {
+    .viasar-header{
+        display: none;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #menu {
+        padding-left: 0px;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    #menu {
+        display: none;
+    }
+}
