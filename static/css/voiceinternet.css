@@ -1,0 +1,20 @@
+.viasat-voice-banner .banner-background {
+  background-image: url(../images/viasait-voicepage-banner-background.webp);
+}
+.voice-satlite-phone .viasat-1 img {
+  width: unset;
+}
+.voiceeasy-page-rulal-area .rulal-area-card {
+  background-color: #014656;
+}
+.voiceeasy-page-rulal-area .rulal-area-card .what-viasat-order a {
+  background-color: #008085;
+}
+@media only screen and (max-width: 767px) {
+  .what-viasat.rulal-area.home-install.voiceeasy-page-rulal-area {
+    padding: 0;
+  }
+  .viasat-voice-banner .banner-background {
+    background-image: url(../images/viasait-voiceinternet-banner-background-mobile.webp);
+  }
+}

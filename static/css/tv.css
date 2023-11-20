@@ -1,0 +1,106 @@
+:root {
+  --color-primary: #c62328;
+  --color-secondary: #c62328;
+  --color-tertiary: #f26529;
+  --color-tertiary: #f26529;
+  --color-red: #c62328;
+  --color-blue: #0072ab;
+  --color-yellow: #ffc40c;
+}
+.tv-top-bar .top-bar-bundles {
+  background-color: var(--color-primary);
+}
+.tv-top-bar .top-bar-bundles p {
+  color: var(--color-white);
+}
+.tv-banner-section .banner-background {
+  background-image: url(../images/wow-tv-page-banner-image.webp);
+}
+
+.tv-banner-section .Wow-heading-list h2,
+.barckground-grey h4 span {
+  color: var(--color-blue);
+}
+
+.netflix-card-section h4 span {
+  color: var(--color-tertiary);
+}
+
+.Internet-tv-button a {
+  display: flex;
+  align-items: center;
+  width: 176px;
+  height: 56px;
+  padding: 0;
+  justify-content: center;
+  column-gap: 15px;
+}
+
+.Internet-tv-button a img {
+  width: 16.5px;
+  height: 7px;
+  transform: translate(0px, 3px);
+}
+
+.tv-page .about-services-heading h2,
+.tv-page .about-services-heading h2 span {
+  color: var(--color-white);
+}
+
+.tv-page .call-now-button a {
+  background-color: var(--color-yellow);
+}
+
+.tv-page .question-banner {
+  top: 102px;
+}
+
+.tv-services .our-services-background {
+  background-image: url(../images/wow-tvpage-our-services-background-image.webp);
+  padding-top: 36px;
+}
+
+.tv-services .one::before {
+  background-color: var(--color-red);
+}
+
+.tv-services .three::before {
+  background-color: var(--color-blue);
+}
+
+.tv-services .four::before {
+  background-color: var(--color-yellow);
+}
+
+.tv-services .our-services-heading p {
+  color: #000;
+  font-family: var(--font-ars-maquette-light);
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 26px;
+  max-width: 1000px;
+}
+
+.tv-services .our-services-heading {
+  margin-bottom: 23px;
+}
+
+.tv-services .our-services-card-sec .our-services-card1:nth-child(2) h3 {
+  color: var(--color-red);
+}
+
+.tv-services .our-services-card-sec .our-services-card1:nth-child(4) h3 {
+  color: var(--color-blue);
+}
+
+.tv-services .our-services-card-sec .our-services-card1:nth-child(5) h3 {
+  color: var(--color-yellow);
+}
+
+@media screen and (max-width: 745px) {
+  .tv-page .question-banner {
+    top: 0;
+  }
+}

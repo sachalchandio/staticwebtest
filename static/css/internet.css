@@ -1,0 +1,332 @@
+.viasat-internet-banner .banner-background {
+  background: url(../images/viasait-internetpage-banner-background.webp);
+  background-size: cover;
+}
+
+.viasat-internet-banner .banner-headings {
+  max-width: 569px;
+}
+
+.viasat-1 h3 {
+  color: var(--color-secondary);
+}
+
+.what-viasat-order a {
+  background-color: var(--color-secondary);
+}
+
+.viasat-1 .depending-test {
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 30px;
+}
+
+.fast-internet-cabel {
+  padding: 0;
+  margin-bottom: -4px;
+}
+
+.top-bar-divider .top-bar {
+  background-color: var(--color-secondary);
+}
+
+.top-bar-divider .top-bar span a {
+  background-color: var(--color-tertiary);
+}
+
+.business-internet {
+  background-image: url(../images/viasat-homepage-business-plans-image.webp);
+  height: 692px;
+  background-size: cover;
+}
+
+.business-card-1 h3 {
+  font-family: "Fontfabric-UniNeueBold";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color: var(--color-black);
+  max-width: 176px;
+  padding-bottom: 15px;
+}
+
+.business-card-1 h4 {
+  font-family: "Fontfabric-UniNeueBook";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--color-black);
+}
+
+.business-card-1 p {
+  font-family: "SourceSansPro-Light";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  color: var(--color-black);
+}
+
+.business-internet .viasat-1 {
+  margin-left: auto;
+  height: 100%;
+  margin-right: 49px;
+  width: 42%;
+  padding: 57px 0px 40px;
+}
+
+.business-cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 39px;
+}
+
+.business-card-1 {
+  width: 37.2%;
+  background: var(--white);
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
+  padding: 19px 30px 30px 30px;
+}
+
+.business-internet-plans .bottom-text {
+  font-size: 10px;
+  line-height: unset;
+  margin-top: 35px;
+}
+
+.do-can-internet {
+  text-align: center;
+}
+
+.do-can-internet h2 {
+  color: var(--color-black);
+  text-align: center;
+  font-family: var(--font-family-primary);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 37px;
+}
+
+.viasat-internet-rest {
+  display: flex;
+  justify-content: space-between;
+  max-width: 922px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  padding-top: 73px;
+}
+
+.can-do-internet-section {
+  padding: 58px 0px;
+}
+
+.rest-card {
+  text-align: center;
+  width: 30%;
+}
+
+.rest-card img {
+  width: unset;
+}
+
+.rest-card h3 {
+  color: var(--color-black);
+  font-family: var(--font-family-secondary);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 0px 18px;
+}
+
+.rest-card p {
+  color: var(--color-black);
+  font-family: var(--font-family-light);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  max-width: 283px;
+}
+
+.find-out-speed {
+  background-color: var(--color-gray);
+}
+
+.find-out-speed .viasat-internet-rest {
+  max-width: 950px;
+}
+
+.find-out-speed .rest-card {
+  width: 22%;
+}
+
+.find-out-speed .viasat-internet-rest {
+  padding-top: 47px;
+}
+
+.internet-page-rulal-area .viasat-1 h3 {
+  color: var(--color-white);
+}
+
+.internet-page-rulal-area .rulal-area-card {
+  background-color: var(--color-secondary);
+}
+
+.internet-page-rulal-area .rulal-area-card .what-viasat-order a {
+  background-color: var(--color-tertiary);
+}
+
+@media only screen and (max-width: 1366px) {
+  .business-internet {
+    background-position: 50%;
+  }
+
+  .business-card-1 {
+    padding: 19px 22px 30px 22px;
+  }
+
+  .fast-internet-cabel {
+    padding: 40px 0px;
+  }
+
+  .business-internet .viasat-1 h2 {
+    font-size: 24px;
+  }
+
+  .business-cards {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  .business-internet .viasat-1 h2 {
+    font-size: 22px;
+  }
+
+  .business-card-1 p {
+    font-size: 13px;
+  }
+
+  .viasat-internet-rest {
+    max-width: 858px;
+  }
+
+  .rest-card p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .find-out-speed .viasat-internet-rest {
+    max-width: 853px;
+    padding: 47px 20px 0;
+  }
+
+  .business-card-1 h3 {
+    font-size: 18px;
+  }
+
+  .business-card-1 p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .business-internet .viasat-1 {
+    padding: 33px 0px 40px;
+  }
+}
+
+@media only screen and (max-width: 939px) {
+  .business-internet {
+    background: unset;
+    height: unset;
+  }
+
+  .business-internet .viasat-1 {
+    width: 100%;
+  }
+
+  .business-internet {
+    padding: 0 30px;
+  }
+
+  .business-card-1 {
+    width: 42.2%;
+  }
+
+  .business-card-1 h3 {
+    max-width: unset;
+  }
+
+  .rest-card p {
+    margin: 0 auto;
+  }
+
+  .rest-card,
+  .find-out-speed .rest-card {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .viasat-internet-banner .banner-background {
+    background: url(../images/viasait-internetpage-banner-background-mobile.webp);
+    height: 615px;
+  }
+  .business-cards {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .business-internet {
+    padding: 0 24px;
+  }
+  .business-card-1 {
+    width: 86%;
+  }
+  .business-card-1 h3 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .business-card-1 h4 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .business-card-1 p {
+    font-size: 18px;
+  }
+  .business-internet-plans .viasat-1 h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .business-internet .viasat-1 h2 {
+    text-align: center;
+  }
+  .viasat-internet-rest {
+    flex-direction: column;
+  }
+  .rest-card,
+  .find-out-speed .rest-card {
+    width: 100%;
+  }
+  .rest-card h3 {
+    font-size: 24px;
+  }
+  .rest-card p {
+    font-size: 18px;
+    line-height: 25px;
+    max-width: unset;
+    padding: 0 24px;
+  }
+  .do-can-internet h2 {
+    padding: 0 24px;
+  }
+  .rest-card p {
+    font-size: 16px;
+    max-width: unset;
+    padding: 0 24px;
+  }
+  .what-viasat.rulal-area {
+    padding: 0px 0px;
+  }
+  .fast-internet-cabel {
+    padding: 40px 24px;
+  }
+}

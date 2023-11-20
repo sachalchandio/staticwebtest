@@ -1,0 +1,55 @@
+.bundles-banner-section .banner-background {
+  background: url(../images/viasait-homepage-banner-bundles.webp);
+  background-size: cover;
+}
+
+.bundles-banner-section .banner-headings ul li {
+  color: var(--color-primary);
+  font-family: var(--font-family-regular);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.bundles-banner-section .banner-headings ul {
+  padding-left: 25px;
+  margin-top: 0;
+}
+.dish-visat .viasat-1 p {
+  margin-bottom: 30px;
+}
+.viasat-house-hour .viasat-1:nth-child(1) {
+  padding-bottom: 36px;
+}
+.viasat-house-hour {
+  padding-bottom: 0px;
+  margin-bottom: -4px;
+  padding-top: 64px;
+}
+.top-bar-divider-1 .top-bar {
+  background-color: var(--color-link);
+}
+.top-bar-divider-1 .top-bar span a {
+  background-color: var(--color-primary);
+}
+.home-install.bundle-page .rulal-area-card {
+  background-color: var(--color-link);
+}
+.home-install.bundle-page .viasat-1 h3 {
+  color: var(--color-white);
+}
+.home-install.bundle-page .what-viasat-order a {
+  background-color: var(--color-primary);
+}
+
+@media only screen and (max-width: 1366px) {
+  .what-viasat.viasat-background.viasat-house-hour .viasat-1 img {
+    transform: translate(0px, 2px);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .bundles-banner-section .banner-background {
+    background-image: url(../images/viasait-bundlepage-banner-background-mobile.webp);
+    height: 754px;
+  }
+}

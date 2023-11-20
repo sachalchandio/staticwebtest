@@ -1,0 +1,1001 @@
+@font-face {
+  font-family: "SourceSansPro-Light";
+  src: url(../fonts/source-sans-pro/SourceSansPro-Light.otf);
+}
+
+@font-face {
+  font-family: "SourceSansPro-Regular";
+  src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+  font-family: "SourceSansPro-LightIt";
+  src: url(../fonts/source-sans-pro/SourceSansPro-LightIt.otf);
+}
+
+@font-face {
+  font-family: "SourceSansPro-Bold";
+  src: url(../fonts/source-sans-pro/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+  font-family: "SourceSansPro-Semibold";
+  src: url(../fonts/source-sans-pro/SourceSansPro-Semibold.otf);
+}
+
+@font-face {
+  font-family: "Fontfabric-UniNeueBook";
+  src: url(../fonts/uni-neue/Fontfabric-UniNeueBook.otf);
+}
+
+@font-face {
+  font-family: "Fontfabric-UniNeueBold";
+  src: url(../fonts/uni-neue/Fontfabric-UniNeueBold.otf);
+}
+
+@font-face {
+  font-family: "Fontfabric-UniNeueRegular";
+  src: url(../fonts/uni-neue/Fontfabric-UniNeueLight.otf);
+}
+
+@font-face {
+  font-family: "SourceSansPro-Semibold";
+  src: url(../fonts/uni-neue/Fontfabric-UniNeueRegular.otf);
+}
+
+:root {
+  /* Colors */
+  --color-primary: #202e39;
+  --color-secondary: #003f73;
+  --color-tertiary: #006ead;
+  --color-background: #f6f6f6;
+  --color-accent: #5ea215;
+  --color-link: #677a89;
+  --color-light: #dee4e8;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray: #f3f3f3;
+
+  /* Font Families */
+  --font-family-primary: "Fontfabric-UniNeueBook";
+  --font-family-secondary: "Fontfabric-UniNeueBold";
+  --font-family-tertiary: "Fontfabric-UniNeueRegular";
+  --font-family-light: "SourceSansPro-Light";
+  --font-family-regular: "SourceSansPro-Regular";
+  --font-family-bold: "SourceSansPro-Bold";
+  --font-family-semibold: "SourceSansPro-Semibold";
+  --font-family-light-italic: "SourceSansPro-LightIt";
+}
+
+body {
+  margin: 0;
+}
+
+.all-main h1,
+.all-main h2,
+.all-main h3,
+.all-main h4,
+.all-main h5,
+.all-main h6,
+.all-main p {
+  margin: 0;
+}
+
+.all-main a {
+  text-decoration: none;
+}
+
+.all-main img {
+  width: 100%;
+}
+
+.banner-section .banner-background {
+  background-image: url(../images/viasait-homepage-banner-background.webp);
+  height: 583px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.banner-headings {
+  max-width: 579px;
+}
+
+.banner-headings h1 {
+  font-size: 50px;
+  color: var(--color-primary);
+  font-family: var(--font-family-tertiary);
+  font-weight: 400;
+  line-height: 57px;
+  padding-bottom: 20px;
+}
+
+.banner-headings h1 span {
+  font-family: var(--font-family-primary);
+  font-weight: 600;
+}
+
+.banner-headings h2 {
+  font-size: 18px;
+  color: var(--color-primary);
+  font-weight: 700;
+  font-family: var(--font-family-secondary);
+  padding-bottom: 10px;
+  line-height: 25px;
+}
+
+.banner-headings p {
+  font-family: var(--font-family-light);
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.ctaa-buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  margin-top: 40px;
+}
+
+.ctaa-buttons a {
+  color: var(--color-primary);
+  font-family: var(--font-family-semibold);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px 21px;
+  border: 3px solid var(--color-primary);
+  transition: all 0.3s;
+}
+
+.ctaa-buttons a:hover {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  transition: all 0.3s;
+  border: 3px solid transparent;
+}
+
+/* topbar */
+.top-bar {
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 0px;
+}
+
+.top-bar span {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  color: var(--color-white);
+  font-family: var(--font-family-primary);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.top-bar span a {
+  color: var(--color-white);
+  font-family: var(--font-family-regular);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  background-color: var(--color-link);
+  padding: 10px 21px;
+}
+
+/* internet-plans */
+.internet-plans-heading {
+  text-align: center;
+}
+
+.internet-plans-heading p {
+  color: var(--color-secondary);
+  font-family: var(--font-family-semibold);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.internet-plans-heading h2 {
+  color: var(--color-black);
+  font-family: var(--font-family-primary);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.all-streaming .streaming-1 img,
+.viasat-data img {
+  width: unset;
+}
+
+.all-streaming .streaming-1,
+.viasat-data {
+  display: flex;
+  align-items: center;
+}
+
+.streaming-2 span {
+  max-width: 179px;
+}
+
+.all-internet-plans {
+  max-width: 930px;
+  margin: 0 auto;
+  display: flex;
+  padding: 35px 0px;
+  column-gap: 30px;
+}
+
+.plans-card-1 p {
+  color: var(--color-tertiary);
+  font-family: var(--font-family-regular);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.plans-card-1 h3 {
+  color: var(--color-black);
+  font-family: var(--font-family-tertiary);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 47px;
+}
+
+.plans-card-1 h4 {
+  color: var(--color-black);
+  font-family: var(--font-family-light-italic);
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.plans-card-1 {
+  width: 31.2%;
+  position: relative;
+  background: var(--color-white);
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
+  padding: 20px 0px 0px;
+  display: inline-grid;
+}
+.business-card-1 {
+  position: relative;
+}
+.plans-card-1::after,
+.phone-cards::after,
+.business-card-1::after {
+  background-image: url(../images/viasat-homepage-internet-plans-line-image.webp);
+  background-repeat: no-repeat;
+  height: 9.875px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  width: 100%;
+  background-size: cover;
+}
+
+.phone-card-image img {
+  width: unset;
+}
+
+.phone-card h3 {
+  color: var(--color-black);
+  font-family: var(--font-family-tertiary);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 530px;
+}
+.phone-card h3 label {
+  color: var(--color-secondary);
+  font-family: var(--font-family-regular);
+}
+.phone-cards {
+  display: flex;
+  max-width: 898px;
+  margin: 0 auto;
+  column-gap: 28px;
+  background: var(--color-white);
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
+  padding: 26px 16px 10px;
+  align-items: center;
+  position: relative;
+  margin-bottom: 37px;
+}
+.phone-card h4 {
+  color: var(--color-secondary);
+  font-family: var(--font-family-regular);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: end;
+}
+.phone-card span {
+  font-size: 50px;
+  font-family: var(--font-family-tertiary);
+}
+.phone-card span del {
+  font-size: 30px;
+}
+.phone-card span sup {
+  color: #1d5700;
+  font-family: var(--font-family-primary);
+  font-weight: 500;
+}
+.viasat-data {
+  column-gap: 30px;
+  justify-content: center;
+  border-radius: 3px;
+  border: 2px solid var(--color-tertiary);
+  padding: 7px 15px;
+  margin: 12px 0px;
+}
+.phone-card span sub {
+  color: var(--color-tertiary);
+  font-family: var(--font-family-primary);
+  font-weight: 500;
+}
+.viasat-data span {
+  text-align: end;
+  color: var(--color-accent);
+  font-size: 16px;
+  font-family: var(--font-family-primary);
+  font-weight: 600;
+}
+
+.viasat-data span label {
+  font-size: 12px;
+  color: var(--color-black);
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+}
+
+.streaming-1 span {
+  color: var(--color-black);
+  text-align: right;
+  font-family: var(--font-family-light);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.all-streaming .streaming-1 {
+  justify-content: space-between;
+  margin-bottom: 11px;
+}
+
+.bottom-paragraph {
+  padding: 8px 12px;
+  background: var(--color-background);
+}
+
+.bottom-paragraph p {
+  text-align: center;
+  color: var(--color-black);
+  font-family: var(--font-family-tertiary);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.moths-different {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 12px 0;
+  margin-bottom: 0px;
+}
+
+.moths-different span {
+  color: var(--color-black);
+  font-family: var(--font-family-tertiary);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 47px;
+}
+
+.three-moths p {
+  font-size: 13px;
+}
+
+.moths-different span sub {
+  color: var(--color-tertiary);
+  font-family: var(--font-family-primary);
+  font-weight: 500;
+}
+
+.moths-different span sup {
+  color: #1d5700;
+  font-family: var(--font-family-primary);
+  font-weight: 500;
+}
+
+.moths-different-thing {
+  padding: 0px 12px;
+  margin-top: 13px;
+}
+
+.moths-different label,
+.moths-different-thing label {
+  color: var(--color-black);
+  font-family: var(--font-family-light);
+  font-size: 24px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.viasat-data-internet {
+  padding: 0 17px;
+}
+
+.interbnwt-plans-small-paragraph p {
+  max-width: 1132px;
+  margin: 0 auto;
+  color: var(--color-black);
+  text-align: center;
+  font-family: var(--font-family-light);
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.internet-palns-section {
+  padding: 39px 0px;
+  background: #f3f3f3;
+}
+
+/* what-viasat */
+.all-viasat-what {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1099px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.viasat-1 {
+  width: 45%;
+}
+
+.viasat-1 h3 {
+  color: var(--color-primary);
+  font-family: var(--font-family-semibold);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.viasat-1 h2 {
+  color: var(--color-black);
+  font-family: var(--font-family-primary);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+  margin-bottom: 15px;
+}
+
+.viasat-1 p,
+.viasat-1 ul li {
+  color: var(--color-black);
+  font-family: var(--font-family-light);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.viasat-1 ul li::marker {
+  font-weight: 100;
+}
+
+.viasat-1 ul {
+  margin: 0;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.what-viasat {
+  padding: 79px 0px;
+}
+
+.what-viasat-order a {
+  color: var(--color-white);
+  background: var(--color-primary);
+  font-family: var(--font-family-semibold);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  padding: 10px 21px;
+}
+
+.viasat-background {
+  background: #f3f3f3;
+}
+
+.rulal-area {
+  padding: 0;
+}
+
+.rulal-area .all-viasat-what {
+  max-width: unset;
+  align-items: unset;
+}
+
+.rulal-area .rulal-area-card {
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+.rulal-area .viasat-1 {
+  width: 50%;
+}
+
+.rulal-area .viasat-1 p {
+  max-width: 521px;
+  color: var(--color-white);
+  line-height: 22px;
+  opacity: 0.5;
+}
+
+.rulal-area-card h4 {
+  color: var(--color-white);
+  font-family: var(--font-family-primary);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.rulal-area-card h3,
+.rulal-area-card h2 {
+  color: var(--color-white);
+}
+
+.rulal-area-card h3 {
+  letter-spacing: 2px;
+}
+
+.rulal-area-card .what-viasat-order {
+  margin-top: 30px;
+}
+
+.rulal-area-card .what-viasat-order a {
+  background-color: var(--color-link);
+}
+
+.satellite-internet,
+.rural-area-internet {
+  max-width: 521px;
+  margin: 0 auto;
+}
+
+.availability .what-viasat-order {
+  margin-top: 30px;
+}
+
+/* faqs */
+.faqs-container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.faqs-container h2 {
+  color: var(--color-black);
+  font-family: var(--font-family-primary);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 37px;
+  padding-bottom: 29px;
+}
+
+button.accordion {
+  width: 100%;
+  border: none;
+  /* border-bottom: 1px solid #9FAFBC; */
+  outline: none;
+  text-align: left;
+  padding: 0px 0px 18px;
+  font-size: 16px;
+  color: var(--color-black);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+  position: relative;
+  background-color: transparent;
+  font-family: var(--font-family-semibold);
+}
+
+button.accordion:after {
+  background: url(../images/viasait-homepage-faqs-section-arrow.webp);
+  content: "";
+  position: absolute;
+  top: 7px;
+  bottom: 0;
+  right: 0;
+  width: 17.975px;
+  height: 10px;
+  background-repeat: no-repeat;
+}
+
+.all-faqs {
+  padding-bottom: 9px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.all-faqs::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #9fafbc;
+  height: 1px;
+}
+
+.accordion-content {
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+
+.accordion.is-open {
+  border: none;
+}
+
+.accordion.is-open + .accordion-content {
+  margin-bottom: 20px;
+}
+
+.accordion-content p {
+  color: var(--color-black);
+  font-family: var(--font-family-light);
+  font-size: 14px;
+  font-weight: 300;
+}
+.banner-ctaa-icons,
+.top-bar a {
+  display: flex;
+  column-gap: 10px;
+  transition: all 0.5s;
+}
+.what-viasat-order a {
+  display: inline;
+}
+.top-bar a img,
+.what-viasat-order a img {
+  width: unset;
+}
+.what-viasat-order a img {
+  transform: translate(-7px, 3px);
+}
+.banner-ctaa-icons .call-white {
+  display: none;
+  transition: all 0.5s;
+}
+.banner-ctaa-icons:hover .call-white {
+  display: block;
+  transition: all 0.5s;
+}
+.banner-ctaa-icons:hover .call-blue {
+  display: none;
+  transition: all 0.5s;
+}
+.banner-ctaa-icons img {
+  width: unset;
+}
+.internet-plans-heading,
+.top-bar {
+  padding: 20px 20px;
+}
+@media only screen and (max-width: 1366px) {
+  .phone-cards {
+    max-width: 837px;
+  }
+  .phone-card h3 {
+    font-size: 27px;
+  }
+}
+@media only screen and (max-width: 1077px) {
+  .top-bar span {
+    column-gap: 26px;
+    font-size: 19px;
+  }
+}
+@media only screen and (max-width: 1141px) {
+  .all-viasat-what {
+    max-width: 865px;
+  }
+
+  .viasat-1 p,
+  .viasat-1 ul li {
+    font-size: 13px;
+  }
+
+  .viasat-1 h2 {
+    font-size: 23px;
+    line-height: 1.3;
+  }
+
+  .rulal-area-card h2 br {
+    display: none;
+  }
+
+  .home-install .rulal-area-card {
+    padding: 0px 30px 0px 30px;
+  }
+
+  .interbnwt-plans-small-paragraph p {
+    max-width: 1049px;
+    padding: 0 20px;
+  }
+
+  .all-internet-plans {
+    max-width: 863px;
+  }
+
+  .plans-card-1 h3 {
+    font-size: 40px;
+  }
+
+  .viasat-data span {
+    font-size: 14px;
+  }
+
+  .viasat-data span label {
+    font-size: 10px;
+  }
+
+  .moths-different span {
+    font-size: 26px;
+  }
+
+  .internet-plans-heading h2 {
+    font-size: 28px;
+  }
+
+  .rulal-area-card h4 {
+    font-size: 14px;
+  }
+
+  .viasat-1 h2 {
+    margin-bottom: 8px;
+  }
+
+  .rulal-area .rulal-area-card {
+    padding: 0px 18px 0px 20px;
+  }
+
+  .rulal-area .viasat-1 p {
+    line-height: 20px;
+  }
+
+  .what-viasat-order a {
+    font-size: 12px;
+    padding: 7px 21px;
+  }
+
+  .rulal-area-card .what-viasat-order {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .banner-headings {
+    max-width: 506px;
+  }
+
+  .banner-headings h1 {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+
+  .banner-headings h2 {
+    font-size: 15px;
+  }
+
+  .banner-section .banner-background {
+    background-position: 39% 58%;
+  }
+
+  .top-bar span {
+    font-size: 17px;
+  }
+
+  .internet-plans-heading h2 {
+    font-size: 23px;
+  }
+
+  .all-internet-plans {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+  }
+
+  .all-streaming .streaming-1,
+  .viasat-data {
+    justify-content: space-between;
+  }
+
+  .plans-card-1 {
+    width: 52.2%;
+  }
+
+  .all-viasat-what {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .viasat-1 {
+    width: 80%;
+  }
+
+  .rulal-area .viasat-1 {
+    width: 100%;
+  }
+
+  .satellite-internet {
+    margin: 0 auto;
+  }
+
+  .rulal-area .rulal-area-card {
+    padding: 30px 0px 30px 0px;
+    margin: 0;
+  }
+
+  .home-install .all-viasat-what,
+  .rulal-area .all-viasat-what {
+    row-gap: 0;
+  }
+
+  .faqs-container {
+    width: 95%;
+  }
+
+  .what-viasat.rulal-area .rulal-area-card {
+    margin-top: -4px;
+  }
+
+  .rural-area-internet {
+    max-width: 521px;
+    margin: 0 auto;
+  }
+  .phone-cards {
+    max-width: unset;
+    width: 45%;
+    flex-direction: column;
+  }
+  .phone-card {
+    width: 100%;
+  }
+  .phone-card h4 {
+    text-align: left;
+    padding-bottom: 15px;
+  }
+  .phone-card h3 {
+    font-size: 27px;
+    padding-bottom: 22px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .banner-section .banner-background {
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: url(../images/viasait-homepage-banner-background-mobile.webp);
+    height: 830px;
+    background-position: unset;
+    align-items: start;
+    padding-top: 28px;
+  }
+
+  .banner-headings h1 {
+    font-size: 30px;
+  }
+
+  .banner-headings h2 {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .top-bar span {
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    padding: 25px;
+    line-height: 37px;
+  }
+
+  .top-bar span a {
+    margin-top: 37px;
+  }
+
+  .internet-plans-heading h2 {
+    font-size: 30px;
+  }
+
+  .internet-palns-section {
+    padding: 39px 25px;
+  }
+
+  .plans-card-1 {
+    width: 100%;
+  }
+
+  .interbnwt-plans-small-paragraph p {
+    max-width: unset;
+    padding: 0 0px;
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .bottom-paragraph {
+    max-width: unset;
+  }
+
+  .bottom-paragraph p {
+    text-align: left;
+    padding: 0 20px;
+    line-height: 16px;
+  }
+
+  .viasat-1 {
+    width: 100%;
+  }
+
+  .what-viasat {
+    padding: 25px;
+  }
+
+  .viasat-1 h2 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .what-viasat.rulal-area {
+    padding: 28px 0px;
+  }
+
+  .rural-area-internet,
+  .satellite-internet {
+    max-width: unset;
+    padding: 0 25px;
+  }
+
+  .rulal-area-card h4 {
+    font-size: 16px;
+  }
+
+  .viasat-1 p,
+  .viasat-1 ul li {
+    font-size: 14px;
+  }
+  .phone-cards {
+    width: 92%;
+  }
+  .phone-card h3 {
+    line-height: 35px;
+  }
+  .phone-card.phone-card-image {
+    padding: 10px 0px 20px;
+  }
+}

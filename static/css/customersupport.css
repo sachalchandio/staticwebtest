@@ -1,0 +1,16 @@
+.customer-support .banner-background {
+  background-image: url(../images/viasait-customerpage-banner-image.webp);
+}
+.customer-rulal-section .viasat-1.rulal-area-card {
+  background-color: var(--color-tertiary);
+}
+.customer-rulal-section .viasat-1.rulal-area-card .what-viasat-order a {
+  background-color: var(--color-secondary);
+}
+
+@media only screen and (max-width: 767px) {
+  .customer-support .banner-background {
+    background-image: url(../images/viasait-customerpage-banner-background-mobile.webp);
+    height: 754px;
+  }
+}
